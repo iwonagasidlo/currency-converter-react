@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Currency converter in React
+
+This project is in polish. It's a currency converter, which converts the amount from polish currency PLN to another selected currency. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
