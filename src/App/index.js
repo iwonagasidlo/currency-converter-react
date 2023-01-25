@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import './App.css';
 import { Form } from './Form';
 import { currencies } from './currencies';
+import { hello } from "../utils/hello";
+
+hello();
 
 function App() {
     const [result, setResult] = useState();
