@@ -4,7 +4,10 @@ This project is a currency converter, which converts the amount from polish curr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Zrzut ekranu_20230126_104350](https://user-images.githubusercontent.com/121032802/214805089-00cd4d3a-8990-46b3-9975-c3045b19d0a4.png)
+
 ## Demo
+https://iwonagasidlo.github.io/currency-converter-react/
 
 ## Technologies used in this project:
 - HTML
