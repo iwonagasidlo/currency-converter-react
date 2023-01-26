@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/currency-converter-react/static/media/money.e89a0deb.webp"
   },
   {
-    "revision": "b8ba4ecf1af72ca02f4103fbbf171b9c",
+    "revision": "c183cddfc8ba2e666ee43b37202d35f9",
     "url": "/currency-converter-react/index.html"
   }
 ];
