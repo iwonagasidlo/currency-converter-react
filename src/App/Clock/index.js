@@ -29,4 +29,4 @@ export const Clock = () => {
             {formatDate(date)}
         </div>
     )
-};
+};          
