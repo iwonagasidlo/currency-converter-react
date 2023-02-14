@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import './App.css';
 import { Form } from './Form';
 import { Clock } from './Clock';
 import { currencies } from './currencies';
 import { hello } from "../utils/hello";
+import { Wrapper } from "./styled";
 
 hello();
 
@@ -23,13 +23,13 @@ function App() {
     }
 
     return (
-        <div className="app">
+        <Wrapper>
             <Clock />
             <Form
                 result={result}
                 calculateResult={calculateResult}
             />
-        </div>
+        </Wrapper>
     );
 }
 
