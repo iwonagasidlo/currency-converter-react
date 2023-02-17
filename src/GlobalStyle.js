@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import background from "./money.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -12,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
       #root {
         font-family: 'Montserrat', sans-serif;
         min-height: 100vh;
-        background-image: url(money.webp);
+        background-image: url("${background}");
         display: flex;
         align-items: center;
         justify-content: center;
