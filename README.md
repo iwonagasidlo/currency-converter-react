@@ -1,13 +1,16 @@
 # Currency converter
 
-This project is a currency converter, which converts the amount from polish currency PLN to another selected currency. You need to put the amount in PLN in the first field and select one of the available currencies in the second one. Then click the button and the result will show up below! **This project was made in polish.**
+This project is a currency converter, which converts the amount from polish currency PLN to another selected currency. Currencies data are fetched from exchangerate.host, which fetches rates data from European Central Bank site. **This project was made in polish.**
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Zrzut ekranu_20230216_134403](https://user-images.githubusercontent.com/121032802/219368250-41c1e83d-fff3-4fc5-8db6-ea4556177cd8.png)
+![Zrzut ekranu_20230225_190121](https://user-images.githubusercontent.com/121032802/221372538-822c30f8-7dfa-45a4-8ccd-b9b9f7ab90b5.png)
 
 ## Demo
 https://iwonagasidlo.github.io/currency-converter-react/
+
+## How does it work?
+You need to put the amount in PLN in the first field and select one of the available currencies from the second field. Then click the button and the converted amount will show up below!
 
 ## Technologies used in this project:
 - HTML
@@ -19,6 +22,7 @@ https://iwonagasidlo.github.io/currency-converter-react/
 - React hooks: useState, useEffect, custom hooks
 - Immutability
 - Global Styles & Theme
+- Axios
 
 ## Available Scripts
 
