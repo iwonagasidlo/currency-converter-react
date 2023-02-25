@@ -5,7 +5,7 @@ export const Wrapper = styled.form`
 `;
 
 export const Fieldset = styled.fieldset`
-    border: 1px solid ${({ theme }) => theme.color.chalice};
+    border: 1px solid ${({ theme }) => theme.color.alto};
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
@@ -56,4 +56,12 @@ export const Info = styled.p`
     font-size: 15px;
     color: ${({ theme }) => theme.color.chalice};
     text-align: center;
+`;
+
+export const Loading = styled.p`
+    color: ${({ theme }) => theme.color.teal};
+`;
+
+export const Failed = styled.p`
+    color: ${({ theme }) => theme.color.crimson};
 `;
