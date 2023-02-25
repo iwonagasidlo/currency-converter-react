@@ -4,7 +4,10 @@ import { Result } from "./Result";
 import { Button, Fieldset, Info, Input, LabelText, Legend, Wrapper, Loading, Failed } from "./styled";
 
 export const Form = () => {
+    const [currency, setCurrency] = useState("EUR");
+    const [amount, setAmount] = useState("");
     const [result, setResult] = useState();
+    
     const ratesData = useRatesData();
 
     const calculateResult = (currency, amount) => {
@@ -17,11 +20,9 @@ export const Form = () => {
         });
     };
 
-    const [currency, setCurrency] = useState("EUR");
-    const [amount, setAmount] = useState("");
-
     const onSubmit = (event) => {
         event.preventDefault();
+
         calculateResult(currency, amount);
     }
 
