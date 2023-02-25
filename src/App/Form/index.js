@@ -31,14 +31,14 @@ export const Form = () => {
                 <Legend>
                     Przelicznik walut
                 </Legend>
-                {ratesData.state === "loading"
+                {ratesData.status === "loading"
                     ? (
                         <Loading>
                             Zaczekaj chwilę! < br /> Ładuję kursy walut z Europejskiego Banku Centralnego...
                         </Loading>
                     )
                     : (
-                        ratesData.state === "error" ? (
+                        ratesData.status === "error" ? (
                             <Failed>
                                 Coś poszło nie tak... Sprawdź czy masz połączenie z internetem!
                             </Failed>
